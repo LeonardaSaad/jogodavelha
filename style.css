@@ -6,9 +6,14 @@
 }
 
 
+:root {
+  --background: #ffffff;
+  --footer: #383838;
+}
+
 html{
   margin: 0;
-  background: #ffffff;
+  background: var(--background);
   color: black;
 
   font-family: 'Bebas Neue', cursive;
@@ -49,7 +54,7 @@ footer {
   margin-top: 46.900px;
 
   
-  color: #383838;
+  color: var(--footer);
   font-size: 25px;
 
   display: flex;
